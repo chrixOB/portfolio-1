@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from "next/link";
 import { useRouter } from 'next/router';
+import Logo from './Logo';
 
 function NavBar() {
 
@@ -30,9 +31,9 @@ function NavBar() {
     ]
 
   return (
-    <div className={'flex justify-between p-5 overflow-hidden '}>
+    <div className={'flex justify-between p-5 bg-gray-50 overflow-hidden'}>
         <div>
-          <Link href={'#'} className="text-[20px]">Portfolios</Link>
+          <Logo />
         </div>
         <ul className="flex">
          {navLinks.map((navLink, index) => 
