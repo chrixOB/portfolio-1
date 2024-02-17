@@ -9,7 +9,7 @@ const HomeSection = () => {
             <div id="Home" className="grid lg:grid-cols-2 sm:grid-cols-1 h-[88vh]">
                 <div className="h-full flex justify-center items-center ">
                     <div>
-                        <p className=" text-gray-300 text-[25px]">Hello, It&apos;s me</p>
+                        <p className=" text-gray-300 text-[25px]">Hello, It&apos;s Me</p>
                         <h4 className="text-[45px] text-white">James Tetteh Totimeh</h4>
                         <div className="flex">
                             <p className="mr-2 text-white text-[25px]">And I&apos;m a </p>
