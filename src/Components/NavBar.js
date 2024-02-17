@@ -37,7 +37,7 @@ function NavBar() {
         <ul className="flex">
          {navLinks.map((navLink, index) => 
                 
-            <li key={index} className="mr-5"><Link href={`#${navLink.name}`} className={`${router.pathname.includes(navLink.name) == true ? 'text-blue-200' : ''}`}>{navLink.name}</Link></li>
+            <li key={index} className="mr-5 flex"><Link href={`#${navLink.name}`} className={`${router.pathname.includes(navLink.name) == true ? 'text-blue-200' : ''}`}>{navLink.name}</Link></li>
         )}
         </ul>
     </div>
