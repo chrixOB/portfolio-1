@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import NavBar from './NavBar'
+// import NavBar from './NavBar'
 // import Typewriter from 'react-typewriter-effect';
 
 const HomeSection = () => {
     return (
         <>
-            <NavBar />
+            {/* <NavBar /> */}
             <div id="Home" className="grid lg:grid-cols-2 sm:grid-cols-1 h-[88vh]">
                 <div className="h-full flex justify-center items-center ">
                     <div>
