@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar";
 import Image from 'next/image'
+// import Typewriter from 'react-typewriter-effect';
 
 const HomeSection = () => {
     return (
