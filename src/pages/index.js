@@ -1,5 +1,5 @@
 import HomeSection from "@/components/HomeSection";
-import NavBar from "@/components/NavBar";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
@@ -11,8 +11,7 @@ export default function Home() {
         }
       `}</style>
       
-      {/* <div>topnav</div> */}
-      <NavBar />
+      <Header />
       <HomeSection />
       
     </div>
