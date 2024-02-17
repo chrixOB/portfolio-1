@@ -30,7 +30,7 @@ function NavBar() {
     ]
 
   return (
-    <div className={'flex justify-between p-5 overflow-hidden'}>
+    <div className={'flex justify-between p-5 overflow-hidden border'}>
         <div>
           <Link href={'#'} className="text-[20px]">Portfolios</Link>
         </div>
