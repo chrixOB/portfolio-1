@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 
 const HomeSection = () => {
     return (
-        <div>
+        <>
             <NavBar />
             <div id="Home" className="grid lg:grid-cols-2 sm:grid-cols-1 h-[88vh]">
                 <div className="h-full flex justify-center items-center ">
@@ -39,7 +39,7 @@ const HomeSection = () => {
                 </div>
             </div>
             
-        </div>
+        </>
     )
 }
 
