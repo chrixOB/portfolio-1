@@ -31,14 +31,14 @@ function NavBar() {
     ]
 
   return (
-    <div className={'flex justify-between p-5 bg-gray-50 overflow-hidden'}>
+    <div className={'flex justify-between p-5 overflow-hidden'}>
         <div>
           <Logo />
         </div>
         <ul className="flex">
          {navLinks.map((navLink, index) => 
                 
-            <li key={index} className="mr-5"><Link href={`#${navLink.name}`} className={`${router.pathname.includes(navLink.name) == true ? 'text-blue-200' : ''}`}>{navLink.name}</Link></li>
+            <li key={index} className="mr-5"><Link href={`#${navLink.name}`} className={`${router.pathname.includes(navLink.name) == true ? 'text-blue-200' : 'text-white'}`}>{navLink.name}</Link></li>
         )}
         </ul>
     </div>
