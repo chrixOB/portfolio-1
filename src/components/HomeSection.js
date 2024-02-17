@@ -9,15 +9,15 @@ const HomeSection = () => {
             <div id="Home" className="grid lg:grid-cols-2 sm:grid-cols-1 h-[88vh]">
                 <div className="h-full flex justify-center items-center ">
                     <div>
-                        <p className=" text-gray-300 text-[25px]">Hello, It's Me</p>
+                        <p className=" text-gray-300 text-[25px]">Hello, It&apos;s Me</p>
                         <h4 className="text-[45px] text-white">James Tetteh Totimeh</h4>
                         <div className="flex">
-                            <p className="mr-2 text-white text-[25px]">And I'm a </p>
+                            <p className="mr-2 text-white text-[25px]">And I&apos;m a </p>
                             <p className="text-cyan-300 text-[25px]">Software Engineer</p>
                         </div>
                         <p className="text-white text-sm mt-2">
-                            I'm a Software Engineer with strong proficiency in Python, Javascript & PHP. <br /> I develop both
-                            mobile apps and web-apps. I'm also an RPA developer with <br /> strong proficiency in Ui-Path and Automation anywhere.
+                            I&apos;m a Software Engineer with strong proficiency in Python, Javascript & PHP. <br /> I develop both
+                            mobile apps and web-apps. I&apos;m also an RPA developer with <br /> strong proficiency in Ui-Path and Automation anywhere.
                         </p>
                         <div>
                             <a href="" className=""></a>
