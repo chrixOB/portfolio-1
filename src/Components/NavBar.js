@@ -32,7 +32,7 @@ function NavBar() {
   return (
     <div className={'flex justify-between p-5 overflow-hidden border'}>
         <div>
-          <Link href={'#'} className="text-[20px]">Portfolios</Link>
+          <Link href={'#'} style={{color: 'red'}} className="text-[20px]">Portfolios</Link>
         </div>
         <ul className="flex">
          {navLinks.map((navLink, index) => 
