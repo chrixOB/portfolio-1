@@ -12,7 +12,7 @@ export default function Home() {
       `}</style>
       
       {/* <div>topnav</div> */}
-      {/* <NavBar /> */}
+      <NavBar />
       <HomeSection />
       
     </div>
