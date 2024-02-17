@@ -1,6 +1,4 @@
-import NavBar from "@/components/NavBar";
 import HomeSection from "@/components/HomeSection";
-
 
 export default function Home() {
   return (
