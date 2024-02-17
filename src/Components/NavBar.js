@@ -30,9 +30,9 @@ function NavBar() {
     ]
 
   return (
-    <div className={'flex justify-between p-5 overflow-hidden border'}>
+    <div className={'flex justify-between p-5 overflow-hidden '}>
         <div>
-          <Link href={'#'} className="text-[20px] text-green-500">Portfolios</Link>
+          <Link href={'#'} className="text-[20px]">Portfolios</Link>
         </div>
         <ul className="flex">
          {navLinks.map((navLink, index) => 
