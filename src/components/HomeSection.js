@@ -1,11 +1,8 @@
 import Image from 'next/image'
-// import NavBar from './NavBar'
-// import Typewriter from 'react-typewriter-effect';
-
+import Typewriter from "typewriter-effect";
 const HomeSection = () => {
     return (
         <>
-            {/* <NavBar /> */}
             <div id="Home" className="grid lg:grid-cols-2 sm:grid-cols-1 h-[88vh]">
                 <div className="h-full flex justify-center items-center ">
                     <div>
@@ -13,7 +10,9 @@ const HomeSection = () => {
                         <h4 className="text-[45px] text-white">James Tetteh Totimeh</h4>
                         <div className="flex">
                             <p className="mr-2 text-white text-[25px]">And I&apos;m a </p>
-                            <p className="text-cyan-300 text-[25px]">Software Engineer</p>
+                            <div className="text-cyan-300 text-[25px]">
+                                <TypewriterComponent firstText={"Software Engineer"} secondText={"RPA Developer"} thirdText={"AI/ML Engineer"}/>
+                            </div>
                         </div>
                         <p className="text-white text-sm mt-2">
                             I&apos;m a Software Engineer with strong proficiency in Python, Javascript & PHP. <br /> I develop both
@@ -33,7 +32,7 @@ const HomeSection = () => {
                         src="/images/profile.jpg"
                         width={300}
                         height={300} 
-                        className="rounded-[50px] border-2 shadow-lg border-cyan-300 shadow-cyan-400"
+                        className="rounded-[50px] border-2 shadow-lg border-cyan-300 shadow-cyan-400 animate-pulse"
                         alt="Picture of the author"
                     />
                 </div>
@@ -44,3 +43,27 @@ const HomeSection = () => {
 }
 
 export default HomeSection
+
+const TypewriterComponent = ({firstText, secondText, thirdText}) => {
+    return (
+        <Typewriter
+            options={{
+                loop: true
+            }}
+            onInit={(typewriter) => {
+            
+                typewriter
+                    .typeString(firstText)
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString(secondText)
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString(thirdText)
+                    .start();
+
+                
+            }}
+        />
+    )
+}
