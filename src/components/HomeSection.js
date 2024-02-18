@@ -32,7 +32,7 @@ const HomeSection = () => {
                         src="/images/profile.jpg"
                         width={300}
                         height={300} 
-                        className="rounded-[50px] border-2 shadow-lg border-cyan-300 shadow-cyan-400 animate-pulse"
+                        className="bg-cover lg:w-[50%] lg:h-[70%] sm:w-[80%] sm:h-[80%] rounded-[50px] border-2 shadow-lg border-cyan-300 shadow-cyan-400 animate-pulse"
                         alt="Picture of the author"
                     />
                 </div>
