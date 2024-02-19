@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 const HomeSection = () => {
     return (
         <>
-            <div id="Home" className="grid lg:grid-cols-2 sm:grid-cols-1 h-[88vh]">
+            <div className="grid lg:grid-cols-2 sm:grid-cols-1 h-[88vh]">
                 <div className="h-full flex justify-center items-center ">
                     <div>
                         <p className=" text-gray-300 text-[25px]">Hello, It&apos;s Me</p>
@@ -20,9 +20,10 @@ const HomeSection = () => {
                         </p>
                         <div>
                             <a href="" className=""></a>
+                            
                         </div>
                         <div className="flex-1 mt-8">
-                            <a href="#" className="border-2 hover:bg-black hover:text-cyan-300 border-cyan-300 rounded-lg shadow-sm shadow-cyan-300 bg-cyan-300 mr-3 p-2">Download CV</a>
+                            <a href="#" className="border-2 hover:bg-black hover:text-cyan-300 border-cyan-300 rounded-lg  text-black shadow-sm shadow-cyan-300 bg-cyan-300 mr-3 p-2">Download CV</a>
                             <a href="#" className="border-2 hover:bg-cyan-300 hover:text-black border-cyan-300 text-cyan-300 rounded-lg p-2">Contact me</a>
                         </div>
                     </div>
