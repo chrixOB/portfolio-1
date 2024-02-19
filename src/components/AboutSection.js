@@ -19,10 +19,16 @@ function AboutSection() {
             </div>
             <div className='h-full flex items-center '>
                 <div>
-                    <SectionTitle firstText={'About'} secondText={'Me'}/>
-                    <p>My name is James Tetteh Totimeh, a Final Year Student at Accra Technical University</p>
+                    <SectionTitle firstText={'About'} secondText={'Me'} />
+                    <p>
+                        My name is James Tetteh Totimeh, a Final Year Computer Science Student <br />
+                        at Accra Technical University
 
-                    <ButtonBackground title={'See More'}/>
+                    </p>
+
+                    <div className='mt-6'>
+                        <ButtonBackground title={'See More'} />
+                    </div>
                 </div>
             </div>
             
