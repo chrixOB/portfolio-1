@@ -28,7 +28,7 @@ const HomeSection = () => {
                         <div className=' mt-8 my-11'>
                             <div className="flex-1">
                                 <a href="#" className="border-2 hover:bg-black hover:text-cyan-300 border-cyan-300 rounded-lg  text-black shadow-sm shadow-cyan-300 bg-cyan-300 mr-3 p-2">Download CV</a>
-                                <a href="#" className="border-2 hover:bg-cyan-300 hover:text-black border-cyan-300 text-cyan-300 rounded-lg p-2">Contact me</a>
+                                <a href="tel: +233556273245" className="border-2 hover:bg-cyan-300 hover:text-black border-cyan-300 text-cyan-300 rounded-lg p-2">Contact me</a>
                             </div>
                         </div>
                         
