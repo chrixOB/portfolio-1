@@ -6,7 +6,7 @@ import { ArrowPathIcon, ChartBarSquareIcon, CodeBracketIcon } from '@heroicons/r
 function LatestProjects() {
   return (
     <div className='min-h-screen' id='Projects'>
-        <div className='text-center py-4'>
+        <div className='text-center pt-3'>
             <SectionTitle firstText={'Latest'} secondText={'Projects'}/>
         </div>
         <div className='flex justify-center'>

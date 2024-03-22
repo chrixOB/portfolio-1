@@ -10,7 +10,7 @@ function ProjectCard({title, description}) {
         </div>
         <div className='py-2 text-sm'>
             <p>{description}</p>
-        </div>
+        </div> 
         <div className='py-5'>
             <LinkBackground href='#About' title={'Read More'} onPress={()=>alert('Go and learn!!!')}/>
         </div>
