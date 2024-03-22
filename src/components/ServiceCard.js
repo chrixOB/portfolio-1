@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonBackground from './ButtonBackground'
+import LinkBackground from './LinkBackground'
 
 function ServiceCard({iconName, title, description}) {
   return (
@@ -14,7 +14,7 @@ function ServiceCard({iconName, title, description}) {
             <p>{description}</p>
         </div>
         <div className='py-5'>
-            <ButtonBackground title={'Read More'} onPress={()=>alert('Go and learn!!!')}/>
+            <LinkBackground href='#About' title={'Read More'} onPress={()=>alert('Go and learn!!!')}/>
         </div>
     </div>
   )
