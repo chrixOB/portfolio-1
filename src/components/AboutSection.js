@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import React from 'react'
-import Slider from 'react-slick';
 import SectionTitle from './SectionTitle';
 import ButtonBackground from './ButtonBackground';
 
 function AboutSection() {
 
     return (
-        <div className='h-screen grid lg:grid-cols-2 sm:grid-cols-1' id='About'>
-            <div className='h-full flex justify-center items-center '>
+        <div className='min-h-screen grid lg:grid-cols-2 sm:grid-cols-1' id='About'>
+            <div className='h-full hidden lg:flex justify-center items-center'>
                 <Image
                     src="/images/profile.jpg"
                     width={300}
@@ -17,13 +16,19 @@ function AboutSection() {
                     alt="Picture of the author"
                 />
             </div>
-            <div className='h-full flex items-center '>
-                <div>
-                    <SectionTitle firstText={'About'} secondText={'Me'} />
-                    <p>
-                        My name is James Tetteh Totimeh, a Final Year Computer Science Student <br />
-                        at Accra Technical University
 
+            <div className='h-full flex items-center'>
+                <div className='p-6'>
+                    <SectionTitle firstText={'About'} secondText={'Me'} />
+                    <p className='w-full lg:w-10/12'>
+                        My name is James Tetteh Totimeh, a Final Year Computer Science Student
+                        at Accra Technical University. I am a Software Engineer who is skilled
+                        at Mobile App Development and Web App Development, AI and ML.
+                        I am also an RPA Developer who is skilled at developing Software Bots
+                        to help automate repetitive tasks.
+                        My goal is to help businesses and organizations with problems solving and analysis.
+                        I am committed to ongoing learning and staying up-to-date with the latest trends &
+                        technologies
                     </p>
 
                     <div className='mt-6'>
