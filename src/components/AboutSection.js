@@ -6,7 +6,7 @@ import ButtonBackground from './ButtonBackground';
 function AboutSection() {
 
     return (
-        <div className='min-h-screen grid lg:grid-cols-2 sm:grid-cols-1' id='About'>
+        <div className='lg:min-h-screen sm:h-auto grid lg:grid-cols-2 sm:grid-cols-1 lg:py-0 py-11' id='About'>
             <div className='h-full hidden lg:flex justify-center items-center'>
                 <Image
                     src="/images/profile.jpg"
