@@ -35,7 +35,7 @@ function AboutSection() {
             <div className='h-full flex items-center'>
                 <div className='p-6'>
                     <SectionTitle firstText={'About'} secondText={'Me'} />
-                    <p className={`w-full lg:w-10/12 transition-all duration-1000 ease-in-out ${isFullText ? 'translate-y-1' : 'translate-y-2'}`}>
+                    <p className={`w-full lg:w-10/12 transition-transform duration-500 ease-in-out ${isFullText ? 'translate-y-2 ' : 'translate-y-1'}`}>
                         {isFullText ? text : `${text.slice(0, 400)}...`}
                     </p>
 

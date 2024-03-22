@@ -13,7 +13,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      transitionProperty: {
+        'height': 'height',
+        'max-height': 'max-height',
+        'spacing': 'margin, padding',
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
