@@ -18,11 +18,11 @@ const navigation = [
     },
     {
         name: 'Projects',
-        href: '#',
+        href: '#Projects',
     },
     {
         name: 'Contacts',
-        href: '#',
+        href: '#Contacts',
     }
 ]
 

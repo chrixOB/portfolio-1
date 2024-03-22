@@ -1,13 +1,13 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
 import ServiceCard from './ServiceCard'
-import { ArrowPathIcon, ChartBarSquareIcon, CodeBracketIcon, GlobeAmericasIcon } from '@heroicons/react/24/outline'
+import { ArrowPathIcon, ChartBarSquareIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
 
 function OurSevicesSection() {
   return (
     <div className='min-h-screen' id='Services'>
-        <div className='text-center py-4'>
-            <SectionTitle firstText={'Our'} secondText={'Services'}/>
+        <div className='text-center py-5'>
+            <SectionTitle firstText={'My'} secondText={'Services'}/>
         </div>
         <div className='flex justify-center'>
             <div className='p-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full lg:w-10/12'>
