@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import LinkBackground from './LinkBackground'
 import Image from 'next/image'
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 function ProjectCard({title, description}) {
 
   return (
-    <div className='bg-gray-800 h-[50vh] lg:h-[35vh] rounded-lg'>
+    <div className='bg-gray-800 h-[40vh] lg:h-[35vh]  rounded-lg'>
         <div className="relative overflow-hidden w-full h-full">
         <Image
           src="/images/profile.jpg"
@@ -20,9 +21,9 @@ function ProjectCard({title, description}) {
             <h1 className="text-white-100 z-0 text-xl font-bold ">{title}</h1>
             <p>{description}</p>
             <div className='flex justify-center mt-3 cursor-pointer'>
-              <button className='p-2 bg-gray-500 rounded-full'>
+              <Link href={'#'} className='p-2 bg-gray-500 rounded-full'>
                 <ArrowTopRightOnSquareIcon className='h-5 w-5 text-black'/>
-              </button>
+              </Link>
               
             </div>
           </div>

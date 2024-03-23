@@ -10,7 +10,7 @@ function ServiceCard({iconName, title, description, onPress}) {
     }
 
   return (
-    <div className='bg-gray-800 text-center min-h-fit p-5 lg:min-h-[60vh] rounded-lg'>
+    <div className='bg-gray-800 text-center min-h-fit p-5 lg:min-h-[60vh] rounded-lg animate-pulse'>
         <div className='flex justify-center'>
             <span className='h-20 w-20 text-cyan-300'>{iconName}</span>
         </div>
