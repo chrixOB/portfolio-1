@@ -63,7 +63,7 @@ function ContactSection() {
                                     
                                 </div>
                                 <div className='p-3'>
-                                    <textarea rows={6} className='bg-gray-800 text-white max-h-[40vh] rounded-md p-3 w-full focus:outline-none shadow-sm shadow-cyan-600' placeholder='Add a message...' required></textarea>
+                                    <textarea rows={6} className='bg-gray-800 text-white max-h-[35vh] min-h-[30vh] rounded-md p-3 w-full focus:outline-none shadow-sm shadow-cyan-600' placeholder='Add a message...' required></textarea>
                                 </div>
                                 <div className='p-3 text-center'>
                                     <ButtonBackground title={'Send Message'} onPress={() => {alert('Message Sent')}}/>
@@ -79,7 +79,7 @@ function ContactSection() {
         </>
         {/* Trademark Information */}
         <div className='text-center py-5'>
-            <p className='text-white'>&reg; {new Date().getFullYear()} James Tetteh Totimeh. All Rights Reserved.</p>
+            <p className='text-white text-sm'><span className='text-[25px]'>&reg;</span> {new Date().getFullYear()} James Tetteh Totimeh. All Rights Reserved.</p>
         </div>
     </div>
   )
