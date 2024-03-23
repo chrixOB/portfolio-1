@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import SectionTitle from './SectionTitle'
 import { ArrowPathIcon, ChartBarSquareIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
+import ButtonOutlined from './ButtonOutlined'
 
 function LatestProjects() {
   return (
@@ -18,9 +19,11 @@ function LatestProjects() {
                 <ProjectCard  title={'Software Development'} description={'We develop highly secured and reliable mobile apps, desktop apps and web apps for.'} />
                 <ProjectCard  title={'Robotic Process Automation'} description={'We build highly dependable bots to help automate repetitive tasks in organizat'} />
             </div>
+           
         </div>
-        
-
+        <div className='text-center'>
+          <ButtonOutlined title={'View All Projects'} onPress={() => {alert('Under Construction, Sorry for the inconvenience!!!')}}/>
+        </div>
     </div>
   )
 }

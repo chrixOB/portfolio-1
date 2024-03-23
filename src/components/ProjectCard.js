@@ -18,7 +18,7 @@ function ProjectCard({title, description}) {
         />
         <div className="bg-gradient-to-t rounded-lg from-cyan-800 to-cyan-50 absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-80 transition-opacity duration-300">
           <div className='text-center'>
-            <h1 className="text-white-100 z-0 text-xl font-bold ">{title}</h1>
+            <h1 className="text-white-100 text-xl font-bold ">{title}</h1>
             <p>{description}</p>
             <div className='flex justify-center mt-3 cursor-pointer'>
               <Link href={'#'} className='p-2 bg-gray-500 rounded-full'>
