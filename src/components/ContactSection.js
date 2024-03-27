@@ -4,7 +4,8 @@ import Logo from './Logo'
 import FormInputField from './FormInputField'
 import ButtonBackground from './ButtonBackground'
 import Link from 'next/link'
-import SocialMediaHandles from './SocialMediaHandles'
+import SocialMediaHandles, { SocialMediaIcon } from './SocialMediaHandles'
+import { FaEnvelope, FaLocationDot, FaPhone } from 'react-icons/fa6'
 
 function ContactSection() {
 
@@ -34,21 +35,32 @@ function ContactSection() {
 
                         {/* Mobile Number */}
                         <div className='my-3'>
-                        <h1 className='text-lg font-bold'> Mobile Number</h1>
-                            <Link target='_blank' href={'tel: +233556273245'}>(GHA) +233556273245</Link>
+                            <h1 className='text-lg font-bold'> Mobile Number</h1>
+                            <div className='flex items-center'>
+                                <SocialMediaIcon href={'tel: +233556273245'} iconName={<FaPhone />}/>
+                                <Link target='_blank' href={'tel: +233556273245'}> (GHA) +233556273245</Link>
+                            </div>
                         </div>
 
                         {/* Email */}
                         <div className='my-3'>
-                        <h1 className='text-lg font-bold'>Email</h1>
-                            <Link target='_blank' href={"mailto: totimehjames123@gmail.com"}>totimehjames123@gmail.com</Link>
+                            <h1 className='text-lg font-bold'>Email</h1>
+                            <div className='flex items-center'>
+                                <SocialMediaIcon href={"mailto: totimehjames123@gmail.com"} iconName={<FaEnvelope />}/>
+                                <Link target='_blank' href={"mailto: totimehjames123@gmail.com"}>totimehjames123@gmail.com</Link>
+                            </div>
                         </div>
 
                         
                         {/* Address */}
                         <div className='my-3'>
                         <h1 className='text-lg font-bold'>Address</h1>
-                            <p>Kasoa Kalabuley adjacent The Methodist Church, Mataheko<br /> Accra, Ghana</p>
+                        <div className='flex items-center'>
+                                <SocialMediaIcon href={"https://www.google.com/maps/place/Ngleshi+Amanfro/@5.5385646,-0.4015882,14z/data=!3m1!4b1!4m6!3m5!1s0xfdfbb3d920c2ae5:0x9801e229a911a596!8m2!3d5.5353486!4d-0.3983829!16s%2Fg%2F11bwf3dz4s?entry=ttu"} iconName={<FaLocationDot />}/>
+                                <Link target='_blank' href={"https://www.google.com/maps/place/Ngleshi+Amanfro/@5.5385646,-0.4015882,14z/data=!3m1!4b1!4m6!3m5!1s0xfdfbb3d920c2ae5:0x9801e229a911a596!8m2!3d5.5353486!4d-0.3983829!16s%2Fg%2F11bwf3dz4s?entry=ttu"}>
+                                    <p>Kasoa Kalabuley adjacent The Methodist Church, Mataheko - Accra, Ghana</p>
+                                </Link>
+                            </div>
                         </div>
 
                     </div>
