@@ -89,6 +89,7 @@ export default function HeaderSection() {
                 </div>
                 <div className="py-6">
                   <a
+                    onClick={() => setMobileMenuOpen(false)}
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base leading-7 text-white hover:bg-gray-900"
                   >
