@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Typewriter from "typewriter-effect";
+import SocialMediaHandles from './SocialMediaHandles';
 
 const HomeSection = () => {
     return (
@@ -21,9 +22,9 @@ const HomeSection = () => {
                             I&apos;m a Software Engineer with strong proficiency in Python, Javascript & PHP. <br /> I develop both
                             mobile apps and web-apps. I&apos;m also an RPA developer with <br /> strong proficiency in Ui-Path and Automation anywhere.
                         </p>
-                        <div>
+                        <div className='pt-4'>
                             <a href="" className=""></a>
-                            
+                            <SocialMediaHandles />
                         </div>
                         <div className=' mt-8 my-11'>
                             <div className="flex-1">

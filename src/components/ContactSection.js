@@ -4,6 +4,7 @@ import Logo from './Logo'
 import FormInputField from './FormInputField'
 import ButtonBackground from './ButtonBackground'
 import Link from 'next/link'
+import SocialMediaHandles from './SocialMediaHandles'
 
 function ContactSection() {
 
@@ -15,7 +16,7 @@ function ContactSection() {
         <>
             <div className='flex min-h-[80vh] justify-center items-start lg:items-center'>
                 <div className='p-3 grid sm:grid-cols-1 lg:grid-cols-2 gap-7 w-full lg:w-10/12'>
-                    <div className='px-7'>
+                    <div className='px-4'>
                         <div >
                             <Logo />
                             <p className=''>
@@ -26,13 +27,15 @@ function ContactSection() {
                         {/* Social Media */}
                         <div className='my-3'>
                             <h1 className='text-lg font-bold'>Social Media</h1>
-                            <p>Kasoa Kalabuley adjacent The Methodist Church, Mataheko<br /> Accra, Ghana</p>
+                            <div className=''>
+                                <SocialMediaHandles />
+                            </div>
                         </div>
 
                         {/* Mobile Number */}
                         <div className='my-3'>
                         <h1 className='text-lg font-bold'> Mobile Number</h1>
-                            <Link target='_blank' href={'tel: +233556273245'}>GHA +233556273245</Link>
+                            <Link target='_blank' href={'tel: +233556273245'}>(GHA) +233556273245</Link>
                         </div>
 
                         {/* Email */}
