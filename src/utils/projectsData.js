@@ -54,6 +54,18 @@ const projectsData = [
         type: "Web Application"
     },
     {
+        title: "Pastries Website",
+        description: "Built with Dorik - Pastry website for advertisement of P & K Bakery; Book pastries on this site",
+        link: "https://pk-bakery.dcms.site/",
+        type: "Web Application"
+    },
+    {
+        title: "PC-HUB Website ",
+        description: "Website for a company deals with sales of Mobile phones, computers and accessories: Built with wordpress.",
+        link: "https://tommelcomputers.netlify.app/",
+        type: "Web Application"
+    },
+    {
         title: "Casio Mini",
         description: "A calculator app for evaluating simple algebra expressions - Built with HTML, CSS & JS",
         link: "https://casio-mini.netlify.app/",
