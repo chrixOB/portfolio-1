@@ -7,7 +7,7 @@ import projectsData from './../utils/projectsData'
 
 function LatestProjects() {
 
-  const [seeMoreCounter, setSeeMoreCounter] = useState(3)
+  const [seeMoreCounter, setSeeMoreCounter] = useState(6)
 
   return (
     <div className='min-h-screen' id='Projects'>
