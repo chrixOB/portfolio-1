@@ -92,7 +92,7 @@ const projectsData = [
     {
         title: "My First Portfolio site",
         description: "Built with HTML, CSS and Bootstrap",
-        link: "https://turban-portfolio.netlify.app/",
+        link: "https://totimehjamestetteh.netlify.app/",
         type: "Web Application"
     },
 
