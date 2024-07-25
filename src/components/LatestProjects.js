@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ProjectCard from './ProjectCard'
 import SectionTitle from './SectionTitle'
 import { ArrowPathIcon, ChartBarSquareIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
 import ButtonOutlined from './ButtonOutlined'
+import projectsData from './../utils/projectsData'
 
 function LatestProjects() {
+
+  const [seeMoreCounter, setSeeMoreCounter] = useState(3)
+
   return (
     <div className='min-h-screen' id='Projects'>
         <div className='text-center pt-3'>
@@ -12,17 +16,16 @@ function LatestProjects() {
         </div>
         <div className='flex justify-center'>
             <div className='p-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full lg:w-10/12'>
-                <ProjectCard  title={'Software Development'} description={'We develop highly secured and reliable mobile apps, desktop apps and web apps for.'} />
-                <ProjectCard  title={'Robotic Process Automation'} description={'We build highly dependable bots to help automate repetitive tasks in organizat'} />
-                <ProjectCard  title={'Software Development'} description={'We develop highly secured and reliable mobile apps, desktop apps and web apps for.'} />
-                <ProjectCard  title={'Robotic Process Automation'} description={'We build highly dependable bots to help automate repetitive tasks in organizat'} />
-                <ProjectCard  title={'Software Development'} description={'We develop highly secured and reliable mobile apps, desktop apps and web apps for.'} />
-                <ProjectCard  title={'Robotic Process Automation'} description={'We build highly dependable bots to help automate repetitive tasks in organizat'} />
+              {projectsData?.map((project, index) => (
+                index + 1 <= seeMoreCounter &&
+                  <ProjectCard key={index} title={project?.title} description={project?.description} link={project?.link} type={project.type}/>
+              ))
+              }
             </div>
            
         </div>
         <div className='text-center'>
-          <ButtonOutlined title={'View All Projects'} onPress={() => {alert('Under Construction, Sorry for the inconvenience!!!')}}/>
+          { projectsData.length > seeMoreCounter && <ButtonOutlined title={'See More'} onPress={() => setSeeMoreCounter(c => c + 3)}/>}
         </div>
     </div>
   )
