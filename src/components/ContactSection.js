@@ -181,7 +181,7 @@ function ContactSection() {
                   <p className='text-sm font-bold px-3 text-center  text-red-500'>{messageError}</p>}
 
                   <div className='p-3 text-center'>
-                    <ButtonBackground title={isLoading ? <div className='flex items-center gap-4'><span className='animate-spin'><FaSpinner /></span>Sending ...</div>: 'Send Message'} onPress={handleSubmit} />
+                    <ButtonBackground disabled={isLoading} title={isLoading ? <div className={`flex items-center gap-4`}><span className='animate-spin'><FaSpinner /></span>Sending ...</div>: 'Send Message'} onPress={handleSubmit} />
                   </div>
                 </div>
               </form>
