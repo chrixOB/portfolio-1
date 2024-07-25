@@ -83,6 +83,18 @@ const projectsData = [
         link: "https://turban-portfolio.netlify.app/",
         type: "Web Application"
     },
+    {
+        title: "Flashy App",
+        description: "Simple web page for a Loan app with HTML & CSS",
+        link: "https://flashyapp.netlify.app/",
+        type: "Web Application"
+    },
+    {
+        title: "My First Portfolio site",
+        description: "Built with HTML, CSS and Bootstrap",
+        link: "https://turban-portfolio.netlify.app/",
+        type: "Web Application"
+    },
 
     
 ]
