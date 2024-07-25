@@ -35,6 +35,30 @@ const projectsData = [
         link: "https://hms-james-totimeh.000webhostapp.com/",
         type: "Web Application"
     },
+    {
+        title: "To-do App",
+        description: "Built with Vite React and Redux Toolkit.",
+        link: "https://todo-app-with-redux-chi.vercel.app/",
+        type: "Web Application"
+    },
+    {
+        title: "Car Rental System",
+        description: "Car rental system UI for Eazi Car Rentals built with HTML, CSS, JS and Bootstrap.",
+        link: "https://eazicars.netlify.app/",
+        type: "Web Application"
+    },
+    {
+        title: "E-commence for computers",
+        description: "Frontend - Simple web page of an ecommence built with HTML and CSS",
+        link: "https://cla-page-totimehjames.netlify.app/",
+        type: "Web Application"
+    },
+    {
+        title: "Biograghy Web Page",
+        description: "Internship project at GITPLUS Limited - Simple web page that displays information about Elon Musk.",
+        link: "https://gitplus-project.netlify.app/",
+        type: "Web Application"
+    },
 
     
 ]

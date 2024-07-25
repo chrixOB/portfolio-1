@@ -29,7 +29,7 @@ function ProjectCard({ title, description, type, link }) {
             <h1 className="text-white text-xl font-bold">{title}</h1>
             <p className='text-white'>{description}</p>
             <div className='flex justify-center mt-3 cursor-pointer'>
-              <Link href={link} className='p-2 bg-gray-500 rounded-full'>
+              <Link href={link} target="_blank" rel="noopener noreferrer" className='p-2 bg-gray-500 rounded-full'>
                 <ArrowTopRightOnSquareIcon className='h-5 w-5 text-black' />
               </Link>
             </div>
