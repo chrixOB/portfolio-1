@@ -8,12 +8,12 @@ const projectsData = [
     },
     {
         title: "School Fee Payment System",
-        description: "Payment system for Additrom School to aid automate fee payment process.",
+        description: "Payment system for Additrom School to aid automate fee payment process: Built with MERN Stack",
         link: "https://additrom-school-fee-payment-system.vercel.app/",
         type: "Web Application"
     },{
         title: "Pharmacy Inventory System",
-        description: "Built with ReactJS, MongoDB, NodeJS - Express",
+        description: "Keeping track of sales and stocking of medicines at Epha Medical Pharmacy. Built with ReactJS, MongoDB, NodeJS - Express",
         link: "https://pharmacy-inventory-system.vercel.app",
         type: "Web Application"
     },
@@ -42,9 +42,21 @@ const projectsData = [
         type: "Web Application"
     },
     {
+        title: "Notes application",
+        description: "Simple Web app for making notes. Built with HTML, CSS and JS.",
+        link: "https://tommel-inotes.netlify.app/",
+        type: "Web Application"
+    },
+    {
         title: "Car Rental System",
         description: "Car rental system UI for Eazi Car Rentals built with HTML, CSS, JS and Bootstrap.",
         link: "https://eazicars.netlify.app/",
+        type: "Web Application"
+    },
+    {
+        title: "Casio Mini",
+        description: "A calculator app for evaluating simple algebra expressions - Built with HTML, CSS & JS",
+        link: "https://casio-mini.netlify.app/",
         type: "Web Application"
     },
     {
@@ -57,6 +69,18 @@ const projectsData = [
         title: "Biograghy Web Page",
         description: "Internship project at GITPLUS Limited - Simple web page that displays information about Elon Musk.",
         link: "https://gitplus-project.netlify.app/",
+        type: "Web Application"
+    },
+    {
+        title: "Counter App",
+        description: "Simple counter app with redux as self-assignment after understanding redux",
+        link: "https://counter-app-rouge-rho.vercel.app/",
+        type: "Web Application"
+    },
+    {
+        title: "Portfolio site",
+        description: "Testing GPT - Simple portfilio site built with GPT",
+        link: "https://turban-portfolio.netlify.app/",
         type: "Web Application"
     },
 
