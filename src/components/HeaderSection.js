@@ -53,11 +53,11 @@ export default function HeaderSection() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm leading-6 text-white">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
-          </div>
+          </div> */}
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
@@ -88,13 +88,13 @@ export default function HeaderSection() {
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
+                  {/* <a
                     onClick={() => setMobileMenuOpen(false)}
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base leading-7 text-white hover:bg-gray-900"
                   >
                     Log in
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
