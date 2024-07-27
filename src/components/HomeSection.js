@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Typewriter from "typewriter-effect";
-import SocialMediaHandles from './SocialMediaHandles';
+// import SocialMediaHandles from './SocialMediaHandles';
 
 const HomeSection = () => {
     return (
@@ -9,18 +9,24 @@ const HomeSection = () => {
                 <div className="min-h-full block sm:py-6 lg:flex justify-center items-center p-0 px-5 sm:p-11">
                     <div>
                         <p className=" text-gray-300 text-[25px]">Hello, It&apos;s Me</p>
-                        <h4 className="text-[45px] text-white">James Tetteh Totimeh</h4>       
+                        <h4 className="text-[55px] text-white mb-4">Anang Christian Obodai</h4>       
                         
-                        <p className="mr-2 text-white text-[25px] block sm:hidden lg:hidden">And I&apos;m a</p>
+                        <p className="mr-2 mt-2 text-white text-[25px] block sm:hidden lg:hidden">And I&apos;m a</p>
                         <div className="flex">
-                            <p className="mr-2 text-white text-[25px] hidden sm:block lg:block">And I&apos;m a</p>
-                            <div className="text-cyan-300 text-[25px]">
-                                <TypewriterComponent firstText={"Software Engineer"} secondText={"Mobile App Developer"} thirdText={"Web App Developer"} fourthText={"AI/ML Engineer"} fifthText={"RPA Developer"} />
+                            <p className="mr-2 text-white text-[38px] hidden sm:block lg:block">And I&apos;m a</p>
+                            <div className="text-cyan-300 text-[38px]">
+                                <TypewriterComponent firstText={"Frontend Engineer"} secondText={"Web Developer </>"} 
+                                 />
                             </div>
                         </div>
-                        <p className="text-white text-sm mt-2">
-                            I&apos;m a Software Engineer with strong proficiency in Python, Javascript & PHP. <br /> I develop both
-                            mobile apps and web-apps. I&apos;m also an RPA developer with <br /> strong proficiency in Ui-Path and Automation anywhere.
+                        {/* <p className="text-white text-sm mt-2">
+                        My name is Anang Christian Obodai, a Final Year Computer Science Student
+                        at Kwame Nkrumah University of Science and Technology(KNUST). I am a web developer who is skilled in
+                        HTML, CSS and JavaScript. Currently expanding my skill set with react.js
+                        <br/>
+                        My goal is to become a full-stack developer and use my skills to solve business and societal problems.
+                        I am committed to ongoing learning and staying up-to-date with the latest trends &
+                        technologies
                         </p>
                         <div className='pt-4'>
                             <a href="" className=""></a>
@@ -28,10 +34,10 @@ const HomeSection = () => {
                         </div>
                         <div className=' mt-8 my-11'>
                             <div className="flex-1">
-                                <a href="/images/cv.pdf"  target={'_blank'} download={"James_Tetteh_Totimeh_CV.pdf"} className="border-2 hover:bg-black hover:text-cyan-300 border-cyan-300 rounded-lg  text-black shadow-sm shadow-cyan-300 bg-cyan-300 mr-3 p-2">Download CV</a>
-                                <a href="tel: +233556273245" target={'_blank'}  className="border-2 hover:bg-cyan-300 hover:text-black border-cyan-300 text-cyan-300 rounded-lg p-2">Contact me</a>
+                                <a href="/images/cv.pdf"  target={'_blank'} download={"obodai_resume.pdf"} className="border-2 hover:bg-black hover:text-cyan-300 border-cyan-300 rounded-lg  text-black shadow-sm shadow-cyan-300 bg-cyan-300 mr-3 p-2">Download Resume</a>
+                                <a href="tel: +233505699505" target={'_blank'}  className="border-2 hover:bg-cyan-300 hover:text-black border-cyan-300 text-cyan-300 rounded-lg p-2">Contact me</a>
                             </div>
-                        </div>
+                        </div> */}
                         
                     </div>
                 </div>
@@ -52,7 +58,7 @@ const HomeSection = () => {
 
 export default HomeSection
 
-const TypewriterComponent = ({firstText, secondText, thirdText, fourthText, fifthText}) => {
+const TypewriterComponent = ({firstText, secondText}) => {
     return (
         <Typewriter
             options={{
@@ -67,13 +73,13 @@ const TypewriterComponent = ({firstText, secondText, thirdText, fourthText, fift
                     .typeString(secondText)
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString(thirdText)
+                    .typeString(firstText)
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString(fourthText)
+                    .typeString(secondText)
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString(fifthText)
+                    .typeString(firstText)
                     .start();
 
                 

@@ -39,7 +39,7 @@ function ContactSection() {
         {
             from_name: `${formData.firstName} ${formData.lastName}`,
             from_email: formData.email,
-            to_name: 'James Tetteh Totimeh',
+            to_name: 'Anang Christian Obodai',
             phone: formData.phone,
             message: formData.message,
         },
@@ -100,7 +100,7 @@ function ContactSection() {
                 <h1 className='text-lg font-bold'> Mobile Number</h1>
                 <div className='flex items-center'>
                   <SocialMediaIcon href={'tel: +233556273245'} iconName={<FaPhone />} />
-                  <Link target='_blank' href={'tel: +233556273245'}> (GHA) +233556273245</Link>
+                  <Link target='_blank' href={'tel: +233556273245'}> (GHA) +233505699505</Link>
                 </div>
               </div>
 
@@ -108,8 +108,8 @@ function ContactSection() {
               <div className='my-3'>
                 <h1 className='text-lg font-bold'>Email</h1>
                 <div className='flex items-center'>
-                  <SocialMediaIcon href={"mailto: totimehjames123@gmail.com"} iconName={<FaEnvelope />} />
-                  <Link target='_blank' href={"mailto: totimehjames123@gmail.com"}>totimehjames123@gmail.com</Link>
+                  <SocialMediaIcon href={"mailto: chrisobodai40@gmail.com"} iconName={<FaEnvelope />} />
+                  <Link target='_blank' href={"mailto: chrisobodai40@gmail.com"}>chrisobodai40@gmail.com</Link>
                 </div>
               </div>
 
@@ -119,7 +119,7 @@ function ContactSection() {
                 <div className='flex items-center'>
                   <SocialMediaIcon href={"https://www.google.com/maps/place/Ngleshi+Amanfro/@5.5385646,-0.4015882,14z/data=!3m1!4b1!4m6!3m5!1s0xfdfbb3d920c2ae5:0x9801e229a911a596!8m2!3d5.5353486!4d-0.3983829!16s%2Fg%2F11bwf3dz4s?entry=ttu"} iconName={<FaLocationDot />} />
                   <Link target='_blank' href={"https://www.google.com/maps/place/Ngleshi+Amanfro/@5.5385646,-0.4015882,14z/data=!3m1!4b1!4m6!3m5!1s0xfdfbb3d920c2ae5:0x9801e229a911a596!8m2!3d5.5353486!4d-0.3983829!16s%2Fg%2F11bwf3dz4s?entry=ttu"}>
-                    <p>Kasoa Kalabuley adjacent The Methodist Church, Mataheko - Accra, Ghana</p>
+                    <p>E-13 block 8, Ashongman (Digital address: GE-110-3511)</p>
                   </Link>
                 </div>
               </div>
@@ -191,8 +191,8 @@ function ContactSection() {
         </div>
       </>
       {/* Trademark Information */}
-      <div className='text-center py-5'>
-        <p className='text-white text-sm'><span className='text-[25px]'>&reg;</span> {new Date().getFullYear()} James Tetteh Totimeh. All Rights Reserved.</p>
+      <div className='text-center py-5' style={{background:'gray'}}>
+        <p className='text-white text-sm'><span className='text-[25px]'>&reg;</span> {new Date().getFullYear()} Anang Christian Obodai. All Rights Reserved.</p>
       </div>
     </div>
   )

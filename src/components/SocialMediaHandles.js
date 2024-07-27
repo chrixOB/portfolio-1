@@ -9,14 +9,14 @@ function SocialMediaHandles() {
 
   return (
     <div className='flex flex-wrap gap-1'>
-        <SocialMediaIcon href={'https://wa.me/+233556273245'} iconName={<FaWhatsapp size={20}  />}/>
-        <SocialMediaIcon href={'https://x.com/JamesTotimeh'} iconName={<FaXTwitter size={20}  />}/>
-        <SocialMediaIcon href={'https://www.linkedin.com/in/james-tetteh-totimeh-bb3b20230'} iconName={<FaLinkedinIn size={20}  />}/>
-        <SocialMediaIcon href={'https://www.facebook.com/totimeh.james.9'} iconName={<FaFacebook size={20}  />}/>
-        <SocialMediaIcon href={'https://instagram.com/totimehjames'} iconName={<FaInstagram size={20}  />}/> 
-        <SocialMediaIcon href={'mailto:totimehjames123@gmail.com'} iconName={<FaEnvelope size={20}  />}/> 
+        <SocialMediaIcon href={'https://wa.link/1wlp87'} iconName={<FaWhatsapp size={20}  />}/>
+        <SocialMediaIcon href={'https://x.com/chrix_ob'} iconName={<FaXTwitter size={20}  />}/>
+        <SocialMediaIcon href={'https://www.linkedin.com/in/christian-anang-623b97217'} iconName={<FaLinkedinIn size={20}  />}/>
+        {/* <SocialMediaIcon href={'https://www.facebook.com/totimeh.james.9'} iconName={<FaFacebook size={20}  />}/> */}
+        <SocialMediaIcon href={'https://www.instagram.com/robin_hoods_grandfather/'} iconName={<FaInstagram size={20}  />}/> 
+        <SocialMediaIcon href={'mailto:chrisobodai40@gmail.com'} iconName={<FaEnvelope size={20}  />}/> 
         <SocialMediaIcon href={'https://www.youtube.com/@jamestotimeh9497/'} iconName={<FaYoutube size={20}  />}/> 
-        <SocialMediaIcon href={'https://github.com/totimehjames123'} iconName={<FaGithub size={20}  />}/> 
+        <SocialMediaIcon href={'https://github.com/chrixob'} iconName={<FaGithub size={20}  />}/> 
     </div> 
   )
 }
