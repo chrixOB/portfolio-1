@@ -11,7 +11,7 @@ function LatestProjects() {
 
   return (
     <div className='min-h-screen' id='Projects'>
-        <div className='text-center pt-3'>
+        {/* <div className='text-center pt-3'>
             <SectionTitle firstText={'Latest'} secondText={'Projects'}/>
         </div>
         <div className='flex justify-center'>
@@ -26,7 +26,7 @@ function LatestProjects() {
         </div>
         <div className='text-center'>
           { projectsData.length > seeMoreCounter && <ButtonOutlined title={'See More'} onPress={() => setSeeMoreCounter(c => c + 3)}/>}
-        </div>
+        </div> */}
     </div>
   )
 }
