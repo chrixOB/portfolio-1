@@ -13,7 +13,7 @@ function AboutSection() {
         HTML, CSS and JavaScript. Currently expanding my skill set with react.js
         I am also an RPA Developer who is skilled at developing Software Bots
         to help automate repetitive tasks.
-        My goal is to help businesses and organizations with problems solving and analysis.
+        My goal is to help solve business and societal problems using my skills in IT.
         I am committed to ongoing learning and staying up-to-date with the latest trends &
         technologies`
 
